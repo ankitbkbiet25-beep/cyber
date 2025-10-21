@@ -66,5 +66,5 @@ The project followed a rigorous, iterative approach (fully documented in `notebo
 
 The deployed application provides full transparency into the detection process:
 
-- Output: Clear status — "Anomaly Detected" or "Normal Traffic."
+- Output: Clear status - "Anomaly Detected" or "Normal Traffic."
 - Transparency: Individual votes from the Isolation Forest, One-Class SVM, and Neural Net are displayed alongside the final Majority Vote decision, allowing security analysts to understand the model's rationale.
