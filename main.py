@@ -174,7 +174,7 @@ with prediction:
         duration = st.number_input("Session Duration (sec)", min_value=1)
         time_str = st.text_input("Time of Creation(HH:MM:SS)", value="00:00:00")
 
-        submitted = st.form_submit_button("Submit")
+        submitted = st.form_submit_button("Predict")
 
     if submitted:
         try:
